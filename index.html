@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+    <!-- Bootstrap, AOS 5 & CSS -->
+    <link rel="stylesheet" href="./vendors/bootstrap-5.0.1/bootstrap-5.0.1/dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/default.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&display=swap" rel="stylesheet"> 
+
+
+    <!-- Bootstrap Icons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>Kristien Nyamutsaka</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container" data-aos="fade-down">
+            <a href="#" class="navbar-brand">
+                <img src="./images/logos/logo-1.png" class="img-fluid rounded-pill" width="100px" alt="" id="logo-img">
+            </a>
+
+            <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navmenu">
+                <ul class="navbar-nav">
+                    <li class="nav-item px-5">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item px-5">
+                        <a href="#resume" class="nav-link">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Area -->
+    <section class="bg-dark text-light p-5 text-center text-sm-start" id="hero">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between" data-aos="zoom-in" data-aos-delay="400">
+                <div class=" d-flex flex-column align-items-center justify-content-center text-center" id="hero-text">
+                    <h1 style="font-size: 60px;">Kristien Nyamutsaka</h1>
+                    <p style="font-size: 32px;" class="lead mb-4"><em>Web Developer. Software Engineer. UI & UX Designer.</em></p>
+                    <div class="d-sm-flex align-items-center gap-3">
+                        <a href="#contact" class="btn btn-primary btn-lg rounded-pill my-3" id="contact-btn">Get In Touch</a>
+                        <a href="#projects" class="btn btn-secondary btn-lg rounded-pill my-3" id="project-btn">View Projects</a>
+                    </div>
+                </div>
+
+                <div class="" data-aos="zoom-in" style="z-index: 5;" data-aos-delay="400" id="hero-img">
+                    <img src="./images/svgs/Coding_SVG.svg" class="img-fluid d-md-flex d-none" width="500px" alt="" >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wave -->
+    <section id="wave">
+        <img src="./images/waves/wave(1).svg" alt="">
+    </section>
+
+    <!-- First Call to action -->
+    <section class="text-center p-5" id="cta1">
+        <div class="container px-5">
+            <h2 data-aos="fade-right">Do You Need A Website?</h2>
+            <p data-aos="fade-left">In 2021, a clean & responsive website is a large step in the right direction for every business. A website puts your business in front of millions of online users that are looking for your services & products.</p>
+            <h4 data-aos="fade-up-left"><mark>Look no further, I can Help!</mark></h4>
+        </div>
+        <div data-aos="fade-up-right" class="h3 my-4 text-center">
+            <i class="bi bi-chevron-down"></i>
+        </div>
+    </section>
+
+    
+
+    <!-- About Me -->
+    <section class="p-5" id="about">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between text-center">
+                <div class="align-items-center justify-content-center text-center" data-aos="fade-right">
+                    <img src="./images/svgs/undraw_Code_thinking_re_gka2.svg" width="250px" alt="">
+                </div>
+                <div class="d-md-flex align-items-center justify-content-center text-center">
+                    <div id="window" class="shadow-lg my-5" data-aos="fade-left">
+                        <div id="window-bar">
+                            <div class="circle shadow-sm"></div>
+                            <div class="circle shadow-sm"></div>
+                            <div class="circle shadow-sm"></div>
+                        </div>
+                        <div id="window-content" class="d-block align-items-center text-center px-3">
+                            <h2 class="py-3">About Me</h2>
+                            <div>
+                                <img class="img-fluid rounded-pill" width="250px" src="./images/jpgs/profile-pic.jpg" alt="">
+                            </div>
+                            <div class="">
+                                <div class="row-align-items-center text-center bg-dark text-light rounded p-4 my-3" id="about-card">
+                                    <p class="card-text">Hello, I'm a freelance web developer based in Dublin, Ireland, who is currently doing a BSc. in Computer Science at Maynooth University. I am an aspiring full-stack developer, who is eager to learn new skills, and does not hesitate to jump into complex collaborative projects.</p>
+                                </div>
+                                <div class="row-align-items-center text-center bg-dark text-light rounded p-4 my-3" id="about-card">
+                                    <p class="card-text">From my previous computer science modules & projects, I have gained experience in the fields of web development, software engieering & UX Design. I am capable at completing all tasks given within a specific amount of time. I have good coding practices and I am familiar with design patterns.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Skills -->
+    <section class="p-5 text-center" id="skills">
+        <div class="container">
+            <h2 data-aos="zoom-out">Skills</h2>
+            <div class="row mt-5 g-3">
+                <!-- Web Dev -->
+                <div class="col-md" data-aos="zoom-in">
+                    <div class="card shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class=" bi bi-code-slash"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Website Building</h3>
+                            <p class="card-text">I am a full stack NodeJS developer, extremely proficient in HTML5, CSS3 and ES6 Javascript with basic skills in React JS.</p>
+                            <div id="languages" class="d-flex align-items-center justify-content-evenly mt-4">
+                                <img src="./images/logos/html-5.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="HTML5">
+                                <img src="./images/logos/css.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="CSS3">
+                                <img src="./images/logos/javascript.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="JavaScript">
+                                <img src="./images/logos/react.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="React JS">
+                                <img src="./images/logos/nodejs.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="node JS">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Software Engineering -->
+                <div class="col-md" data-aos="zoom-in">
+                    <div class="card shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class=" bi bi-journal-code"></i>
+                            </div>
+                            <h3 class="card-title mb-3">Software Programming</h3>
+                            <p class="card-text">I have a deep understanding of Java, capable in using various design patterns and architectures. I also have a basic understanding of C, Python & Go.</p>
+                            <div id="languages" class="d-flex align-items-center justify-content-evenly mt-4">
+                                <img src="./images/logos/java.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Java">
+                                <img src="./images/logos/c.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Microsoft C">
+                                <img src="./images/logos/python.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Python">
+                                <img src="./images/logos/go-lang.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Go">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UI & UX Design -->
+                <div class="col-md" data-aos="zoom-in">
+                    <div class="card shadow-lg">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class=" bi bi-columns-gap"></i>
+                            </div>
+                            <h3 class="card-title mb-3">UI & UX Design</h3>
+                            <p class="card-text">I can create gorgoeus wireframes, mock-ups and prototypes with ease. My prefered choice of design software is Adobe XD.</p>
+                            <div id="languages" class="d-flex align-items-center justify-content-evenly mt-4">
+                                <img src="./images/logos/adobexd.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Adobe XD">
+                                <img src="./images/logos/figma.png" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Figma">
+                                <img src="./images/logos/wireframe.svg" class="img-fluid" width="40px" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Balsamiq Wireferames">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- 2nd Call to action -->
+    <section class="text-center text-light p-5" id="cta2">
+        <div class="container px-5 mt-5">
+            <h2 data-aos="fade-down-right">Don't Know Where To Start?</h2>
+            <p data-aos="fade-down-left">Setting up a website can be a tricky and time consuming process. Don't get lost in a field full of technical terms. Contact me now and I'll be able to walk you through the steps, without all the tech mumbo jumbo!</p>
+            <a data-aos="fade-up" href="#contact" id="contact-btn" class="btn btn-primary btn-lg  rounded-pill">Let's Talk</a>
+        </div>
+    </section>
+
+
+        <!-- Wave -->
+    <section>
+        <img src="./images/waves/wave-5.svg" alt="">
+    </section>
+
+    <!-- Projects -->
+    <section class="p-5" id="projects">
+        <div class="container">
+            <h2 class="mb-5 text-center" data-aos="zoom-out">Projects</h2>
+            <div class="h4 my-1 text-center">
+                <i class="bi bi-journal"></i>
+            </div>
+
+            <!-- Middleman Project -->
+            <div data-aos="flip-left" class="row bg-dark text-light my-5 rounded shadow-lg" id="project-card" data-tilt data-tilt-axis="y" data-tilt-scale="1.1" style="transform-style: preserve-3d">
+                <div class="col-md d-md-flex justify-content-between align-items-center" >
+                    <img src="./images/project/project-2.png" width="1000px" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md px-5">
+                    <div class="display-5 mt-4">
+                        <h3>Middleman Operations Portal</h3>
+                    </div>
+                    <p>Secure web portal for a start-up courier business based in Zimbabwe. This application allowed for the logistics team and suppliers to keep track of all their deliveries, employees and income.</p>
+                    <p>Technologies Used:</p>
+                    <div class="d-flex">
+                        <ul >
+                            <li class="list-inline-item"><mark>NodeJS</mark></li>
+                            <li class="list-inline-item"><mark>Sass(CSS)</mark></li>
+                            <li class="list-inline-item"><mark>Express JS</mark></li>
+                            <li class="list-inline-item"><mark>Passport JS</mark></li>
+                            <li class="list-inline-item"><mark>Mongo DB</mark></li>
+                        </ul>  
+                    </div>
+                    <div class="d-sm-flex align-tems-center justify-content-end gap-3 px-2 my-5">
+                        <a href="https://static.middlemanafrica.com/" target="blank" class="btn btn-primary btn-lg rounded-pill my-2" id="contact-btn">Static Site <i class="bi bi-window"></i></a>
+                        <a href="https://github.com/KristienN/middleman-portal/tree/main" target="blank" class="btn btn-secondary btn-lg rounded-pill my-2">GitHub <i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h3 text-center"><i class="bi bi-chevron-down"></i></div>
+
+            <!-- Middleman Project -->
+            <div data-aos="flip-left" class="row bg-dark text-light my-5 rounded shadow-lg" id="project-card" data-tilt data-tilt-axis="y" data-tilt-scale="1.1" style="transform-style: preserve-3d">
+                <div class="col-md d-md-flex justify-content-between align-items-center" >
+                    <img src="./images/project/qtscore-homepage.png" width="1000px" class="img-fluid rounded" alt="">
+                </div>
+                <div class="col-md px-5">
+                    <div class="display-5 mt-4">
+                        <h3>Qtscore - Football tips & predictions</h3>
+                    </div>
+                    <p>Football tips and predictions web application made for client based in Nigeria.</p>
+                    <p>Technologies Used:</p>
+                    <div class="d-flex"> 
+                        <ul >
+                            <li class="list-inline-item"><mark>NodeJS</mark></li>
+                            <li class="list-inline-item"><mark>Bootstrap</mark></li>
+                            <li class="list-inline-item"><mark>Express JS</mark></li>
+                            <li class="list-inline-item"><mark>Sportsmonk API</mark></li>
+                            <li class="list-inline-item"><mark>Mongo DB</mark></li>
+                        </ul>  
+                    </div>
+                    <div class="d-sm-flex align-tems-center justify-content-end gap-3 px-2 my-5">
+                        <a href="https://qtscore.com" target="blank" class="btn btn-primary btn-lg rounded-pill my-2" id="contact-btn">Live Site <i class="bi bi-window"></i></a>
+                        <a href="https://github.com/KristienN/qtscore.git" target="blank" class="btn btn-secondary btn-lg rounded-pill my-2">GitHub <i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Other Projects & Resume-->
+    <section class="p-5" id="resume">
+        <div class="container">
+            <h2 class="text-center my-5" data-aos="zoom-out">Resume</h2>
+            <div class="rounded text-center d-flex flex-column align-items-center justify-content-center">
+                <div class="card p-2 my-5" style="opacity: 0.8; width: 60vw;" data-aos="fade-up">
+                    <div class="d-flex justify-content-evenly">
+                        <h2 class="card-title">Freelance Web Developer</h2>
+                    <h3 class="card-text"><em>June 2021 - present</em></h3>
+                    </div>
+                </div>
+
+                <div class="h3 text-center my-4"><i class="bi bi-circle"></i></div>
+
+                <div class="card p-2 my-5" style="opacity: 0.8; width: 60vw;" data-aos="fade-up">
+                    <div class="d-flex justify-content-evenly">
+                        <h2 class="card-title">BSc. Computer Science & Software Engineering</h2>
+                    <h3 class="card-text"><em>September 2019 - present</em></h3>
+                    </div>
+                </div>
+
+                <a href="./documents/Resume.pdf" target="blank" class="btn btn-primary btn-lg rounded-pill" id="project-btn" data-aos="zoom-in">View Full Resume</a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="p-5" id="contact" style="background-color: #ceff00;">
+        <div class="container d-flex align-items-center justify-content-center">
+            <form method="POST" data-netlify="true" data-aos="fade-up">
+                <Legend class="text-center d-flex align-items-center justify-content-center gap-1">Get In Touch</Legend>
+                <h3 class="text-center my-3"><i class="bi bi-person-badge"></i></h3>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="name" name="name" placeholder="John Doe">
+                    <label for="name">Name</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="name@example.com">
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input type="subject" class="form-control" id="subject" name="subject" placeholder="Subject">
+                    <label for="subject">Subject</label>
+                </div>
+                
+                <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave a message here" name="message" id="message" style="height: 200px;"></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn btn-lg btn-primary rounded-pill" id="project-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <section style="background-color: black;">
+        <img src="./images/waves/wave-7.svg" alt="">
+    </section>
+    
+    <!-- Third Call to Action -->
+    <section class="text-center p-5 text-light" style="background-color: black;">
+        <div class="container px-5">
+            <h2 data-aos="fade-down-right">Want A Wordpress, Wix or Webflow Website?</h2>
+            <h4 data-aos="fade-left"><mark>I Do That Too!</mark></h4>
+            <p data-aos="fade-down-left">I can create amazing sites from scratch or even using the themes that are available. I know my way around all the tits and tats of CMS and can help you manage your sites.</p>
+            <h4 data-aos="fade-right" class="mt-5">Check out this awesome blog site that I made, and feel free to read through and share the blog.</h4>
+        </div>
+        <div class="my-4" data-aos="flip-right">
+            <img src="./images/project/wp-project.png" width="800px" class="img-fluid rounded" alt="" data-tilt data-tilt-scale="1.05">
+        </div>
+        <a data-aos="zoom-in" href="https://untrapd.wordpress.com/" class="btn btn-primary btn-lg my-3 rounded-pill" id="contact-btn" target="blank">View Site</a>
+    </section>
+
+    <!-- More About Me -->
+    <section class="p-5" id="more-me">
+        <div class="container">
+
+            <h2 class="text-center text-light" data-aos="zoom-out">More Me</h2>
+
+
+            <!-- Travel -->
+            <div class="d-md-flex align-items-center justify-content-evenly my-5">
+                <div class="col-md" data-aos="fade-left">
+                    <img class="img-fluid" src="./images/svgs/undraw_adventure_4hum.svg" width="600px" alt="">
+                </div>
+                <div class="col-md p-5" id="info-card" data-aos="fade-right">
+                    <h2>Travel</h2>
+                    <p>When I was a child, my family were always on the go, moving from place to place, continent to continent. This on the move attitude sparked up my interest in exploring the world, discovering all the treasures that places have to offer.</p>
+                    <h5 class="mt-3">Where I am:</h5>
+                    <div class="d-sm-flex align-items-center justify-content-center gap-5">
+                        <div class="h3 text-center">
+                            <img src="./images/svgs/ireland.svg" width="50px" alt="" class="img-fluid" style="opacity: 0.3;" data-bs-toggle="tooltip" data-bs-placement="top" title="Ireland">
+                        </div>
+                        <div class="h3 text-center">
+                            <img src="./images/svgs/zimbabwe.svg" width="70px" class="img-fluid" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Zimbabwe">
+                        </div>
+                        <div class="h3 text-center">
+                            <img src="./images/svgs/united-kingdom.svg" width="50px" class="img-fluid" alt="" style="opacity: 0.3;" data-bs-toggle="tooltip" data-bs-placement="top" title="United Kingdom">
+                        </div>
+                        <div class="h3 text-center">
+                            <img src="./images/logos/germany.svg" width="50px" class="img-fluid" alt="" style="opacity: 0.3;" data-bs-toggle="tooltip" data-bs-placement="top" title="Germany">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="height: 20vh;"></div>
+
+            <!-- Football -->
+            <div class="d-md-flex align-items-center justify-content-evenly my-5">
+                <div class="col-md p-5" id="info-card" data-aos="fade-right">
+                    <h2>Football</h2>
+                    <p>I have the football spirit flowing through my veins. I love the sport, and I have been able to see a lot of success as a midfielder. My greatest acheivement so far is representing the Zimbabwe National team at the U19 level. For the past 12 or so years I have been constantly improving and participating in games. Playing in front of a few thousand fans would be a dream come true.</p>
+                    <h5 class="mt-3">Teams I have played for:</h5>
+                    <div class="d-sm-flex align-items-center justify-content-center gap-4 my-5">
+                        <div class="h3 text-center">
+                            <img src="./images/logos/lusk-utd-logo.jpg" width="100px" alt="" class="img-fluid" data-bs-toggle="tooltip" data-bs-placement="top" title="Lusk United AFC">
+                        </div>
+                        <div class="h3 text-center">
+                            <img src="./images/logos/zimbabwe-logo.jpg" width="100px" class="img-fluid rounded-pill" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Zimbabwe National U19">
+                        </div>
+                        <div class="h3 text-center">
+                            <img src="./images/logos/real-city.jpg" width="100px" class="img-fluid rounded-pill" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Real City FC">
+                        </div>
+                    </div>
+                    <div class="d-sm-flex align-items-center justify-content-center gap-4 my-5">
+                        <div class="h3 text-center">
+                            <img src="./images/logos/mu-logo.png" width="100px" class="img-fluid rounded-pill" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Maynooth University Freshers">
+                        </div>
+                        <div class="h3 text-center">
+                            <img src="./images/logos/maynooth-town-logo.jpg" width="100px" class="img-fluid rounded-pill" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Maynooth University Town FC">
+                        </div>
+                        <div class="h3 text-center">
+                            <img src="./images/logos/corduff-logo.png" width="100px" class="img-fluid rounded" alt="" data-bs-toggle="tooltip" data-bs-placement="top" title="Corduff FC">
+                        </div>
+                    </div>
+                    <a href="./documents/Kristien-Nyamutsaka-Football-CV.pdf" target="blank" class="btn btn-primary btn-lg rounded-pill my-3" id="contact-btn">Soccer Resume</a>
+                </div>
+                <div class="col-md" data-aos="fade-left">
+                    <img class="img-fluid" src="./images/svgs/undraw_junior_soccer_6sop.svg" width="600px" alt="">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Wave -->
+    <section style="background-color: black;">
+        <img src="./images/waves/wave-5.svg" alt="">
+    </section>
+
+    <!-- Footer -->
+    <section class="p-5 text-center text-light" style="background-color: black;" id="footer">
+        <div class="container" data-aos="fade-down">
+            <div class="mb-5">
+                <img src="./images/logos/logo-1.png" class="rounded-pill img-fluid" width="100px" alt="">
+            </div>
+            <h4 class="mt-3">Designed using HTML, Sass & Bootstrap</h4>
+            <h4 class="mt-3"><code>&lt;Kristien Nyamutsaka&gt;</code></h4>
+            <div class="d-sm-flex my-4 align-items-center justify-content-center gap-2" style="font-style:italic;"><h5>Have a </h5></h5><h5 id="adj" style="color: rgb(0, 255, 191); font-weight: bold; font-family: 'Lucida Console', sans-serif; font-style: normal;"></h5><h5 id="day"></h5></div>
+            <div class="d-flex align-tems-center justify-content-center gap-5 mt-5">
+                <a href="https://www.facebook.com/kristien.nyamutsaka" class="display-6" target="blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com/kristiennyamutsaka" class="display-6" target="blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://ie.linkedin.com/in/kristien-nyamutsaka-0b34941a0" class="display-6" target="blank"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/KristienN" target="blank" class="display-6"><i class="bi bi-github"></i></a> 
+            </div>
+            <div class="d-md-flex align-tems-center justify-content-center gap-5 my-5">
+                <a href="#about" class="display-7"><p style="color: white;">About</p></a>
+                <p>|</p>
+                <a href="#contact" class="display-7"><p style="color: white;">Contact</p></a>
+                <p>|</p>
+                <a href="#projects" class="display-7"><p style="color: white;">Projects</p></a>
+                <p>|</p>
+                <a href="#resume" class="display-7"><p style="color: white;">Resume</p></a> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.5/dayjs.min.js"></script>
+    <script src="./node_modules/tilt.js/dest/tilt.jquery.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+
+        let dayNum = dayjs().day();
+        let DayString = dayNum.toString();
+        let day = "Day";
+
+        if(DayString == "0") day = "Sunday";
+        if(DayString == "1") day = "Monday";
+        if(DayString == "2") day = "Tuesday";
+        if(DayString == "3") day = "Wednesday";
+        if(DayString == "4") day = "Thursday";
+        if(DayString == "5") day = "Friday";
+        if(DayString == "6") day = "Saturday";
+        console.log(day);
+
+        AOS.init({
+            duration: 800
+        });
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl);
+        });
+        const dayElement = document.getElementById("day");
+        dayElement.innerHTML = day;
+
+        
+
+
+    </script>
+</body>
+</html>

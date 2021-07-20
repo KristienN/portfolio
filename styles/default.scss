@@ -1,0 +1,297 @@
+@import "../vendors/bootstrap-5.0.1/bootstrap-5.0.1/scss/bootstrap.scss";
+
+
+$primaryColor: black;
+$secondaryColr: #ceff00; 
+
+@mixin circle($size){
+    border-radius: 50%;
+    width: $size;
+    height: $size;
+}
+
+nav{
+    background-color: black;
+}
+
+#hero{
+    background-color: black;
+}
+
+#hero-img{
+    transform: translateY(150px);
+}
+
+#hero-text{
+    transform: translate(120px, -120px);
+}
+
+body{
+    background-color: rgb(214, 212, 212);
+    overflow-x: hidden;
+}
+
+
+#footer{
+    a{
+        font-family: 'Inconsolata', sans-serif;
+        text-transform: capitalize;
+        color: #ceff00;
+        text-decoration: none;
+        &:hover{
+            text-decoration: line-through;
+            text-decoration-color: black;
+            text-decoration-thickness: 10%;
+            color: white;
+        }
+    }
+}
+
+#about{
+    width: 100vw;
+    background: url(../images/waves/wave-2.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#wave{
+    background-color: #ceff00;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+#logo-img{
+    &:hover{
+        opacity: 0.7;
+    }
+}
+
+#cta1{
+    background: #ceff00;
+}
+
+#cta2{
+    background-color: #ff002b;
+}
+
+#skills{
+    background: url('../images/waves/wave-4.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+
+.nav-link{
+    font-family: 'Inconsolata', sans-serif;
+    text-transform: capitalize;
+    &:hover{
+        text-decoration: line-through;
+        text-decoration-color: black;
+        text-decoration-thickness: 10%;
+        color: #ceff00;
+    }
+}
+
+#project-card{
+    height: auto;
+    .img-container{
+        height: inherit;
+        img{
+            height:100%;
+            object-fit: cover;
+        }
+
+    }
+}
+
+#resume{
+    background: url('../images/waves/wave-6.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#contact-btn{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    background-color: #ceff00;
+    border: none;
+    transition: 0.3s ease-in;
+
+    &:hover{
+        background-color: white;
+        border: 3px solid #ceff00;
+    }
+}
+
+*::selection{
+    background-color: #ceff00;
+}
+
+
+#more-me{
+    background: url('../images/waves/wave-8.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+
+    background-color: #ff002b;
+}
+
+#info-card{
+    background-color: white;
+}
+
+#project-btn{
+    font-family: 'Open Sans', sans-serif;
+
+    background-color: #ff002b;
+    border: none;
+    transition: 0.3s ease-in;
+
+    &:hover{
+        background-color: white;
+        border: 3px solid #ceff00;
+    }
+}
+
+h1, h2, h3, h4{
+    font-family: 'Inconsolata', sans-serif;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-floating input{
+    width: 40vw;
+    border: none;
+    border-bottom: 3px solid $secondaryColr;
+    opacity: 0.8;
+}
+
+.form-floating textarea{
+    height: 500px;
+    width: 40vw;
+    border: none;
+    border-bottom: 3px solid $secondaryColr;
+    opacity: 0.8;
+}
+
+form button{
+    width: 40vw;
+}
+
+#window{
+    width: 56vw;
+    display: grid;
+    grid-template-rows: 2rem auto;
+    border-radius:10px;
+    animation: floater 5s infinite 0.5s linear;
+}
+
+#window-bar{
+    background-color: rgb(207, 207, 207);
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    padding: 10px;
+
+    div{
+        @include circle(20px);
+        transition: 0.2s ease;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+
+    div:nth-child(1){
+        background-color: red;
+    }
+
+    div:nth-child(2){
+        background-color: yellow;
+    }
+
+    div:nth-child(3){
+        background-color: greenyellow;
+    }
+}
+
+#window-content{
+    border: 2px solid rgb(204, 204, 204);
+    border-top: none;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+}
+
+#adj::after{
+    content: "Delightful ";
+    transition: 1.2s ease;
+    animation: switcher 20s infinite;
+}
+
+@keyframes switcher{
+
+    25%{
+        content: "Wonderful ";
+    }
+    50%{
+        content: "Blessed ";
+    }
+    75%{
+        content: "Fantastic ";
+    }
+}
+
+@keyframes floater{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(15px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #hero{
+        overflow-y: hidden;
+    }
+    section{
+        overflow-x: hidden;
+    }
+    
+    #project-card{
+        flex-direction: column;
+    }
+
+    #hero-text{
+        transform: none;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+
+    .form-floating input{
+        width: 70vw;
+    }
+
+    .form-floating textarea{
+        width: 70vw;
+    }
+
+    form button{
+        width: 70vw;
+    }
+
+    #window{
+        width: 70vw;
+    }
+    
+}
